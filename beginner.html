@@ -12,6 +12,187 @@
 			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
 			crossorigin="anonymous"
 		/>
+		<!-- CSS -->
+		<link rel="stylesheet" href="css/beginner.css" />
 	</head>
-	<body></body>
+	<body>
+		<header>
+			<!-- navbar -->
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+				<div class="container-fluid">
+					<a class="navbar-brand fs-4" href="#">LOSE WEIGHT</a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarText"
+						aria-controls="navbarText"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarText">
+						<ul class="navbar-nav m-auto mb-2 mb-lg-0 fs-5">
+							<li class="nav-item">
+								<a
+									class="nav-link active"
+									aria-current="page"
+									href="beginner.html"
+									>BEGINNER</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">INTERMIDIATE</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">ADVANCE</a>
+							</li>
+						</ul>
+						<div class="navbar-text fs-5">
+							<button type="button" class="btn btn-secondary">MALE</button>
+							<button type="button" class="btn btn-secondary">FEMALE</button>
+						</div>
+					</div>
+				</div>
+			</nav>
+
+			<!-- Carousel -->
+			<div
+				id="carouselExampleControls"
+				class="carousel slide"
+				data-bs-ride="carousel"
+			>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img
+							src="images/carousel/5.jpg"
+							class="d-block w-100"
+							height="300"
+							alt="..."
+						/>
+					</div>
+					<div class="carousel-item">
+						<img
+							src="images/carousel/3.jpg"
+							class="d-block w-100"
+							height="300"
+							alt="..."
+						/>
+					</div>
+					<div class="carousel-item">
+						<img
+							src="images/carousel/4.jpg"
+							class="d-block w-100"
+							alt="..."
+							height="300"
+						/>
+					</div>
+				</div>
+				<button
+					class="carousel-control-prev"
+					type="button"
+					data-bs-target="#carouselExampleControls"
+					data-bs-slide="prev"
+				>
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button
+					class="carousel-control-next"
+					type="button"
+					data-bs-target="#carouselExampleControls"
+					data-bs-slide="next"
+				>
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+		</header>
+
+		<main class="ps-5 pe-5">
+			<!-- Instruction -->
+			<div class="accordion" id="accordionExample">
+				<div class="accordion-item">
+					<h2 class="accordion-header" id="headingOne">
+						<button
+							class="accordion-button"
+							type="button"
+							data-bs-toggle="collapse"
+							data-bs-target="#collapseOne"
+							aria-expanded="true"
+							aria-controls="collapseOne"
+						>
+							Instruction
+						</button>
+					</h2>
+					<div
+						id="collapseOne"
+						class="accordion-collapse collapse show"
+						aria-labelledby="headingOne"
+						data-bs-parent="#accordionExample"
+					>
+						<div class="accordion-body">
+							<p>
+								Just 5-10 min, this training is designed especially for
+								beginners who want to lose weight but don't know where to start.
+							</p>
+							<br />
+							<p>
+								This training mixes with basic aerobic and anaeerobic
+								excercises.It uses your bodyweight to work all muscle groups and
+								boost your fat burning.
+							</p>
+							<br />
+							<p>
+								Low impact option is friendly for people who are overweight or
+								have joint problems. Please stick to a low-calorie diet to
+								maximize your workout result.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Level -->
+		</main>
+
+		<footer class="bg-dark mt-5">
+			<div class="row container p-4">
+				<div class="col-6">
+					<ul class="list-group list-group-horizontal-lg">
+						<li class="list-group-item me-auto bg-dark text-white fs-6">
+							ABOUT
+						</li>
+						<li class="list-group-item me-auto bg-dark text-white fs-6">
+							CONTACT
+						</li>
+						<li class="list-group-item me-auto bg-dark text-white fs-6">
+							PRIVACY
+						</li>
+						<li class="list-group-item me-auto bg-dark text-white fs-6">
+							USER
+						</li>
+					</ul>
+					<p class="text-white p-3">
+						© QS Quacquarelli Symonds Limited 1994 - 2021. All rights reserved.
+					</p>
+				</div>
+				<div class="col-6">
+					<ul class="list-group list-group-horizontal-lg float-end">
+						<li class="list-group-item bg-dark text-white fs-6">FACEBOOK</li>
+						<li class="list-group-item bg-dark text-white fs-6">INSTAGRAM</li>
+						<li class="list-group-item bg-dark text-white fs-6">TWITTER</li>
+						<li class="list-group-item bg-dark text-white fs-6">LINKEDIN</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+		<!-- Script -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+			crossorigin="anonymous"
+		></script>
+	</body>
 </html>
